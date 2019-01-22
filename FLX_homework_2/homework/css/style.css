@@ -1,0 +1,142 @@
+@media screen{
+    .tm-box-bg-title:hover{
+        color: white;
+        background-color: lightskyblue;
+    }
+    p:first-letter{
+        color: lightskyblue;
+        font-size: 30px;
+    }
+    .tm-content-box{
+        box-shadow: 0 0 10px rgba(0,0,0,0.7)
+    }
+    .tm-main-nav{
+        box-shadow: 0 0 10px rgba(0,0,0,0.7)
+    }  
+    section{
+        position: relative;
+    }
+    section::before{
+        content:"";
+        top: 0px;
+        left: 0px;
+        position: absolute;
+        width: 150px;
+        height: 100px;
+        background: lightblue;
+        z-index: 1;
+        clip-path: polygon(0 0, 0 28%, 100% 0);
+    }
+    .carousel-content .flex-item .tm-section-title{
+        color: gainsboro;
+        letter-spacing: 5px;
+    }
+    h2 + p{
+        font-style: italic;
+    }
+    p{
+        text-indent: 20px;
+        line-height: 40px;
+    }
+    .padding-medium ol li a{
+        color:black;
+    }
+    .padding-medium ol li a:hover{
+        color:lightskyblue;
+        border-bottom: 1px double;
+    }
+    .padding-medium ol li:nth-child(3)::after{
+        content: "New";
+        font-size: 10px;
+        color:red;
+        vertical-align: top;
+    }
+    .padding-medium ol li:first-child::after{
+        content: "New";
+        font-size: 10px;
+        color:red;
+        vertical-align: top;
+    }
+    .padding-medium ol li a:visited {
+        text-decoration: underline;
+      }
+      .box-work {
+          padding: 10px;
+      }
+      .boxes li p:first-letter {
+        color:black;
+    }
+    .boxes li p{
+        text-indent: 0px;
+    }
+    .boxes.gallery-container li:nth-child(even) {
+        background-color: lightgrey;
+      }
+      .mandatory-field::after {
+        content: "*";
+        color:red;
+        font-weight:400;
+      } 
+       .submit-btn {
+        background-color: white;
+        color: lightskyblue;
+        border: 1px solid lightskyblue;
+        border-radius: 0;
+        padding: 1rem 3rem;
+        text-align: right;
+    }
+      .submit-btn:hover{
+          color: white;
+          background-color: rgb(129, 200, 245);
+          border: 1px solid lightskyblue;
+      }
+      .contact-form{
+          text-align: right;
+      }
+      .tm-nav-item:hover{
+          background-color: grey;
+          transition: 1.5s;
+          z-index: 1111;
+      }
+      .blocks{
+        box-shadow: 0 0 10px rgba(0,0,0,0.7);
+      }
+      .tm-content-box.flex-2-col:first-child {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    img[alt="epam-mexico"] {
+        width: 100%;
+    }
+}
+
+
+@media print {
+    .tm-sidebar, #about, .heading, .blocks, #ideas, .img-fluid, #contact {
+        display: none;
+    }
+    .tm-main-content {
+        width: 100%;
+        margin: auto;
+    }
+    .tm-content-box.flex-2-col:first-child {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .tm-team-description-container {
+        max-width: 100%;
+    }
+    .tm-content-box.flex-2-col .tm-section-title {
+        color: blue;
+    }
+    p:first-letter {
+        color:lightskyblue;
+        font-size: 30px;
+    }
+    h2 + p {
+        font-style: italic;
+    }
+}
