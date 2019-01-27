@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0; }
+  
+  .main-wrapper {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    background: #eedede; }
+  
+  header {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/header_background_v2.jpg) no-repeat;
+    background-size: cover;
+    color: #acc2d1; }
+  
+  .top-wrapper {
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; }
+  
+  .logo img {
+    height: 150px; }
+  
+  nav {
+    padding: 10px; }
+    nav a {
+      padding: 10px 100px 10px 100px;
+      text-decoration: none;
+      color: #f15729;
+      border-right: 1px solid #acc2d1; }
+    nav a:last-child {
+      border: none; }
+  
+  header section {
+    display: flex;
+    align-items: center;
+    margin-top: 120px;
+    flex-direction: column;
+    color: #f15729; }
+    header section h1 {
+      text-transform: uppercase; }
+  
+  a.btn.btn-top {
+    cursor: pointer;
+    text-decoration: none;
+    color: #f15729;
+    background: blue;
+    padding: 10px 20px;
+    margin: 15px;
+    border: none;
+    text-transform: uppercase; }
+  
+  main {
+    font-size: 0.6923076923;
+    margin: 0 auto; }
+  
+  .toolbar {
+    margin: 10px 0px;
+    text-align: right; }
+    .toolbar input {
+      padding: 10px 10px;
+      border: 1px solid black;
+      margin-right: 15%;
+      background: #eedede; }
+      .toolbar input placeholder {
+        padding-left: 10px;
+        background: #eedede; }
+  
+  .post-list {
+    margin: 0 auto;
+    max-width: 70%; }
+    .post-list h1 {
+      text-align: right;
+      text-transform: uppercase; }
+    .post-list article {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding-bottom: 10px;
+      margin-top: 10px;
+      background: white; }
+      .post-list article img {
+        padding-top: 5px;
+        padding-bottom: 0px;
+        padding-left: 5px;
+        padding-right: 5px; }
+    .post-list article > div {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-end; }
+  
+  .post-description {
+    color: lightgrey;
+    border-bottom: 1px solid #ada9a9;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-top: 5px; }
+  
+  .post h3 {
+    color: grey;
+    text-transform: uppercase; }
+  .post p {
+    line-height: 25px;
+    margin-bottom: 20px; }
+  
+  .post-list .btn {
+    margin-right: 10px;
+    cursor: pointer;
+    padding: 15px 50px;
+    border: none;
+    background: blue;
+    color: white;
+    text-transform: uppercase; }
+  
+  .about {
+    padding-top: 20px;
+    width: 70%;
+    margin: 0 auto; }
+    .about h1 {
+      text-align: right;
+      text-transform: uppercase; }
+    .about p {
+      line-height: 25px;
+      margin-bottom: 20px; }
+    .about div img {
+      width: 100%; }
+  
+  #contact {
+    width: 70%;
+    margin: 0 auto; }
+  
+  .contact-form {
+    text-align: right;
+    padding-top: 20px; }
+    .contact-form h4 {
+      text-transform: uppercase;
+      margin-bottom: 30px; }
+  
+  .input-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px; }
+  
+  .input {
+    width: 100%;
+    display: inline-block; }
+    .input .input-name {
+      margin-right: 20px; }
+  
+  .input-name {
+    margin-right: 20px; }
+  
+  form {
+    font-size: 0.6923076923; }
+    form input, form label {
+      width: 100%;
+      display: block; }
+    form label {
+      color: grey; }
+  
+  form input, form textarea {
+    color: grey;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid white; }
+  form .textarea {
+    width: 100%; }
+  form .btn-send {
+    cursor: pointer;
+    padding: 15px 50px;
+    border: none;
+    background: blue;
+    color: white; }
+  
+  footer {
+    margin: 7px;
+    font-size: 7px; }
+  
+  /*# sourceMappingURL=style2.css.map */
+  
